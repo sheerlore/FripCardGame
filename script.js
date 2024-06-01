@@ -76,7 +76,7 @@ function shuffleCards() {
     flipsTag.innerText = flips;
     disableDeck = isPlaying = false;
 
-    let arr = ["bxl-java", "bxl-go-lang", "bxl-tiktok", "bxl-php", "bxl-python", "bxl-c-plus-plus"];
+    let arr = ["bxl-java", "bxl-go-lang", "bxl-javascript", "bxl-php", "bxl-python", "bxl-c-plus-plus"];
     arr.sort(() => Math.random() > 0.5 ? 1 : -1);
     cards.forEach((card, index) => {
         card.classList.remove("flip");
